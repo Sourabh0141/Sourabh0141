@@ -1,15 +1,6 @@
-# Sourabh Sharma
+### Distributed Backends, Event-Driven Streaming & Production AI
 
-**Software Engineer — Backend Systems, Applied AI & Cloud Architecture**  
-Jaipur, India · Associate Software Developer at Predusk Technology
-
-[Live Portfolio](https://sourabh.pages.dev) · [LinkedIn](https://www.linkedin.com/in/sourabh-sharma-3221932b5/) · [Email](mailto:sourabh.sharma0141@gmail.com)
-
----
-
-### Engineering Profile
-
-I architect high-throughput asynchronous backends, event-driven streaming pipelines, and production machine learning workflows. My core engineering focus centers on eliminating synchronous bottlenecks with non-blocking I/O, replacing fragile polling mechanisms with broker-based push topologies, and deploying low-latency vision, speech, and retrieval models across Google Cloud, AWS, and Cloudflare.
+I architect high-throughput asynchronous microservices, distributed messaging topologies, and production machine learning pipelines. My engineering focus centers on eliminating synchronous bottlenecks with non-blocking I/O (asyncpg, aioboto3), replacing polling loops with broker-based push streams (RabbitMQ, MQTT), and deploying low-latency vision, speech, and retrieval models across Google Cloud, AWS, and Cloudflare.
 
 ---
 
@@ -17,8 +8,8 @@ I architect high-throughput asynchronous backends, event-driven streaming pipeli
 
 #### Caliber — Cross-Cloud Video Platform & Data Engine
 * Led offshore engineering spanning Google Cloud and AWS for US social video media brands (The News Movement, Recount).
-* Architected keyless cross-cloud authentication using AWS-to-GCP Workload Identity Federation, allowing AWS Lambda services to securely query BigQuery catalogs without static service account keys.
-* Decomposed monolithic classification pipelines into modular Cloud Functions with LLM inference and guarded SQL MERGE write-backs to preserve editorial annotations.
+* Architected keyless cross-cloud authentication using AWS-to-GCP Workload Identity Federation, allowing AWS Lambda services to query BigQuery catalogs via REST APIs without static service account keys.
+* Decomposed monolithic pipelines into isolated Cloud Functions with LLM classification and guarded SQL MERGE write-backs to preserve editorial annotations.
 * Engineered an automated video transcription pool featuring time-budgeted execution, exponential jitter backoff, and idempotent BigQuery job management.
 
 #### Labelfort — Multi-Tenant AI Data Annotation Platform
@@ -28,7 +19,7 @@ I architect high-throughput asynchronous backends, event-driven streaming pipeli
 
 #### Digilekh — Document Intelligence & Audit Automation
 * Engineered a 9-stage Celery ingestion pipeline incorporating Surya OCR, chunking algorithms, and hybrid dense/sparse vector indexing in Qdrant.
-* Led a non-blocking asynchronous migration across 3 core microservices using SQLAlchemy 2.0 (asyncpg), aioboto3, and httpx.
+* Led a non-blocking asynchronous migration across 3 core microservices using SQLAlchemy 2.0 (asyncpg), aioboto3, and httpx to eliminate event loop starvation.
 * Integrated self-hosted Faster-Whisper (STT) and Kokoro-82M (TTS) microservices with TTL caching for low-latency speech pipelines.
 
 #### ArchiveLens — Historical Document Layout Segmentation & Search
@@ -67,12 +58,3 @@ I architect high-throughput asynchronous backends, event-driven streaming pipeli
 
 * **Bachelor of Computer Applications (BCA)**  
   SSG Pareek College, University of Rajasthan (2022 – 2025) · Jaipur, India
-
----
-
-### Contact & Collaboration
-
-* **Email**: sourabh.sharma0141@gmail.com
-* **Portfolio**: [https://sourabh.pages.dev](https://sourabh.pages.dev)
-* **LinkedIn**: [linkedin.com/in/sourabh-sharma-3221932b5](https://www.linkedin.com/in/sourabh-sharma-3221932b5/)
-* **Location**: Jaipur, Rajasthan, India (UTC +05:30)
